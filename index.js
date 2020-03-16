@@ -146,10 +146,10 @@
         const user = data.find(item => item.id === Number(id))
 
         if (list.some(item => item.id === Number(id))) {
-            alert(`${user.name} is alerady in your favorite list.`)
+            alert(`${user.name} is alerady in your Like list.`)
         } else {
             list.push(user)
-            alert(`added ${user.name} to your favorite list.`)
+            alert(`added ${user.name} to your Like list.`)
         }
         localStorage.setItem('favoriteUsers', JSON.stringify(list))
     }

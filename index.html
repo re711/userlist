@@ -15,11 +15,27 @@
   <!-- navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <h3 class="navbar-brand" href="./index.html">Fake User List</h3>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="like.html">Like</a>
+          </li>
+        </ul>
+      </div>
     <form id="search" class="form-inline">
         <label class="sr-only" for="inlineFormInputName2">Name</label>
         <input type="text" class="form-control mb-2 mr-sm-2" id="search-input" placeholder="search name ...">
         <button type="submit" class="btn btn-primary mb-2">Search</button>
-      </form>
+    </form>
   </nav>
       
       <div class="row d-flex justify-content-center" id="switch-Mode">
@@ -79,6 +95,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
     crossorigin="anonymous"></script>
   <script src="index.js"></script>
+    <style>
+    @import url(style.css);
+    </style>
 </body>
 
 </html>
